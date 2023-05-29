@@ -1,12 +1,9 @@
-# VORON-2.4-r2-MKS-SKIPR-Build-CUSTOM-SIZE-
+# VORON 2.4r2 LUCINDA
+# MKS SKIPR Build
 
-This is my Klipper Configuration for the Voron 2.4 r2.
+This is my Klipper Configuration for the Voron 2.4 r2 using the MKS SKIPR Board with MKS Pi TS35
 <br>It contains the Macros I'm using, as well as basic printer settings, etc.
 <br> I will always be working on this and finding new ways to arrange my configuration into different files, so you will find it changes. A lot!
-
-This firmware will be used on three custom sized Voron 2.4 r2's. 1 is currently up and running printing the second.
-<br>The second one will be finished by 10/05/2023.
-<br>The third will probably happen late 2023 / early 2024.
 
 **About this repository...**
 
@@ -31,7 +28,7 @@ Reliability, Usability - I wanted to build a couple of units that are easier to 
 
 So far, the printer itself uses the standard inductive sensor and vanilla 3d printed parts. The Case is slightly different to standard.
 
-As I initially planned to upcylce a broken SteadyTech Pro X for the first build, the following has been recycled on printer 1:
+This printer has been made using parts recycled from an old Creality CR-X. Parts used include, but are not limited to;
 
 24v Heated Bed
 <br>Bed Mount
@@ -39,6 +36,9 @@ As I initially planned to upcylce a broken SteadyTech Pro X for the first build,
 <br>PSU 
 <br>Power Switch
 <br>Endstops
+<br>Cables
+<br>Fans
+<br>SSR Module
 
 Sadly, I came into issues with other parts of the old printer that meant a lot got ditched into the local recycling centre, a fair bit was salvaged for other projects.
 
@@ -47,7 +47,7 @@ It utilises the following electronics hardware:
 MKS SKIPR V1.0 Main Board
 <br>MKS Pi TS-35 Touch Screen
 <br>TMC2209 Stepper Drivers
-<br>PL-08N2 Proximity sensor
+<br>PL-05N2 Proximity sensor
 <br>COMFAST CF-WU810N Wireless Dongle (Plug and play)
 <br>ADXL345 Accelerometer 
 
@@ -61,7 +61,7 @@ Klipper Cancel Object Preprocessor - Makes it possible to cancel objects to pote
 **Problems Experienced:**
 
 The Initial MGN9 rails that I purchased for the Z were not machined correctly - this caused all sorts of binding issues, so they were returned. Buy cheap, buy twice!
-<br>I started off with an incorrect sized frame from trying to re-use the SteadyTech extrusion. I tried to fix this by printing small bits of extrusion to place at either end - this DID NOT work!!
+<br>I started off with an incorrect sized frame from trying to re-use the CR-X extrusion. I tried to fix this by printing small bits of extrusion to place at either end - this DID NOT work!!
 <br>I have since replaced with a full sized frame (all beit using printed corner cubes) and the printer mechanics now work flawlessly! Firmware, that's another story...
 
 **Things I have learned:**
@@ -82,5 +82,4 @@ KlipperScreen - I am making my own background and adding my own splash screen, w
 
 **What I plan to do next...**
 
-Finish building the second 310x310x300mm 2.4 r2
 <br>Make a 600x600x1000mm version because I had a massive heat bed given to me that's sitting collecting dust (possible modification of parts for this to accomodate a larger frame).
